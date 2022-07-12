@@ -46,12 +46,12 @@
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
   display: flex;
   justify-content:center;
   display: grid;
   padding:40px;
-  margin-left:20px;
+ 
 
 }
 
