@@ -1,15 +1,15 @@
 import React from 'react';
 import './coachingsessions.css';
-// import img2 from '../../Assets/h1.jpg';
+import img2 from '../../Assets/h1.jpg';
+import img3 from '../../Assets/h3.jpg';
 
 function CoachingSessions() {
   return (
     <div className="gpt3__whatgpt3-heading">
     <h1 className="gradient__text">Coaching Sessions</h1>
 
-  
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
-    {/* <img className="w-full" src={require(img2)} alt="Display" /> */}
+    <img className="w-full" src={img2} alt="Display" />
     <div className="px-6 py-4">
       <div className="font-bold text-sky-900 text-xl mb-2">
    Single Coaching Session
@@ -26,7 +26,7 @@ function CoachingSessions() {
   </div>
 
   <div className="max-w-sm rounded overflow-hidden shadow-lg">
-    {/* <img className="w-full" src={require(img2)} alt="Display" /> */}
+    <img className="w-full" src={img3} alt="Display" />
     <div className="px-6 py-4">
       <div className="font-bold text-sky-900 text-xl mb-2">
    Coaching Session 6 weeks
