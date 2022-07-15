@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#about">WAbout Me</a></p>
+            <p><a href="#about">About Me</a></p>
             <p><a href="#coaching">Coaching Sessions</a></p>
             <p><a href="#healing">Physical Healing</a></p>
             <p><a href="#contact">Contact Me</a></p>
