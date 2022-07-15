@@ -11,7 +11,7 @@ function About() {
     </div>
  
     <div className="gpt3__whatgpt3-heading">
-      <h1 className="gradient__text">About Me</h1>
+      <h1 className="gradient__text">About</h1>
  
     </div>
     

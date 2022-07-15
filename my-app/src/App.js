@@ -7,17 +7,20 @@ import About from './Containers/About/About';
 import CoachingSessions from './Containers/CoachingSessions/CoachingSessions';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
     <div className="gradient__bg">
     <Navbar />
    <Header />
+   <div className="bg-color">
    <CoachingSessions/>
 
    <About />
   
 
+</div>
   
     </div>
     </div>
