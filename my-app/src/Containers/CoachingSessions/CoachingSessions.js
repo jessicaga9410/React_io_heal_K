@@ -14,8 +14,8 @@ function CoachingSessions() {
       <div className="font-bold text-sky-900 text-xl mb-2">
    Single Coaching Session
       </div>
-      <p className="text-gray-700 text-base">
-      Lorem picsum  <span></span>
+      <p className="text-slate-900 text-base">
+       <span> Book your 60 min coaching session </span>
       </p>
     </div>
     <div className="px-6 py-4">
@@ -31,8 +31,8 @@ function CoachingSessions() {
       <div className="font-bold text-sky-900 text-xl mb-2">
    Coaching Session 6 weeks
       </div>
-      <p className="text-indigo-800 text-base">
-        Lorem picsum <span></span>
+      <p className="text-slate-900 text-base">
+       <span>Book your 60 min coaching session for 6 weeks</span>
       </p>
     </div>
     <div className="px-6 py-4">

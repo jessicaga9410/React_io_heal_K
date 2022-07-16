@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css';
-// import aboutMeImg from '../../Assets/h1.jpg'
 
 function About() {
   return (
@@ -14,7 +13,7 @@ function About() {
       <h1 className="gradient__text">About</h1>
  
     </div>
-    
+      {/* <img className='h10Img' src={aboutMeImg} alt=""/> */}
     <div className="gpt3__whatgpt3-container">
     {/* <Feature title="Coaching Session" text="Heloo" />
      <Feature title="Coaching session 6 weeks" text="Lorem picsum" />
