@@ -1,39 +1,47 @@
 .gpt3__whatgpt3-heading button {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px; 
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 100px;
-    color: rgb(14, 14, 14);
-    /* background-color:rgb(26, 25, 25); */
-    background-color: rgb(244, 215, 215);
-    width: 150px;
-    height: 55px;
-    /* font-family: 'Roboto', sans-serif; */
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px   #a39b9b;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    flex: 0.6;
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-   text-align: center;
-   align-items: center;
-margin:30px;
-   margin-right:35px;
-  
-  }
-  .gpt3__whatgpt3-heading button:hover{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 100px;
+  color: rgb(14, 14, 14);
+  /* background-color:rgb(26, 25, 25); */
+  background-color: rgb(244, 215, 215);
+  width: 150px;
+  height: 55px;
+  /* font-family: 'Roboto', sans-serif; */
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px #a39b9b;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  flex: 0.6;
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  text-align: center;
+  align-items: center;
+  margin: 30px;
+  margin-right: 35px;
+}
+.gpt3__whatgpt3-heading button:hover {
   box-shadow: 0px 15px 20px rgba(13, 13, 13, 0.4);
-background-color:#dcbbbb;
-color:black;
-transform: translateY(-7px);
-display: inline-block;
-box-shadow: 0px 8px 15px   #a39b9b;
-  }
-  span{
-    color:black;
-  }
+  background-color: #dcbbbb;
+  color: black;
+  transform: translateY(-7px);
+  display: inline-block;
+  box-shadow: 0px 8px 15px #a39b9b;
+}
+span {
+  color: black;
+}
+.gpt3__whatgpt3-heading {
+  display: flex;
+  justify-content: center;
+  justify-content:space-evenly;
+margin:40px;
+padding:60px;
+
+}
+
