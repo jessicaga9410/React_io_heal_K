@@ -23,7 +23,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-right: 5rem;
+  margin-right: 3.15rem;
+  margin-left:2.18rem;
   height:100%;
 }
 
@@ -111,6 +112,8 @@
   flex: 0.6;
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
+  margin-left:2.18rem;
+  /* align-items: center; */
  
 
 }

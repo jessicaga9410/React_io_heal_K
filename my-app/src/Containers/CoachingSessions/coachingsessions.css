@@ -39,9 +39,8 @@ span {
 .gpt3__whatgpt3-heading {
   display: flex;
   justify-content: center;
-  justify-content:space-evenly;
-margin:40px;
-padding:60px;
-
+  justify-content: space-evenly;
+  margin: 40px;
+  padding: 60px;
 }
 
