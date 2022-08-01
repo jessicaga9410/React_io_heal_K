@@ -10,118 +10,138 @@
 
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
-    max-width: 700px;
+  max-width: 700px;
 }
 
 .gpt3__whatgpt3-heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-    margin: 4rem 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 2rem;
 }
 
 .gpt3__whatgpt3-heading h1 {
-    font-size: 34px;
-    line-height: 45px;
-    font-weight: 800;
-    font-family: var(--font-family);
-    max-width: 510px;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
 }
 
 .gpt3__whatgpt3-heading p {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--color-subtext);
-    cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
 }
 
 .gpt3__whatgpt3-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-    margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2rem;
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-container .gpt3__features-container__feature {
-    flex: 1;
-    margin: 1rem;
-    min-width: 210px;
-    display: unset;
-    flex-direction: column;
+.gpt3__whatgpt3-about-container .gpt3__features-container__feature {
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
 }
 
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-container .gpt3__features-container_feature-text {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {
-    .gpt3__whatgpt3-heading {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 0rem;
-    }
+  .gpt3__whatgpt3-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
 
-    .gpt3__whatgpt3-heading p {
-        margin-top: 1rem;
-    }
+  .gpt3__whatgpt3-heading p {
+    margin-top: 1rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    /* Customizing feature component as per needs */
-    .gpt3__whatgpt3-feature .gpt3__features-container__feature {
-        flex-direction: column;
-    }
-
-    /* Customizing feature component as per needs */
-    .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
-        margin-top: 0.5rem;
-    }
-
-    .gpt3__whatgpt3-heading h1 {
-        font-size: 28px;
-        line-height: 40px;
-    }
-}
-
-
-
-
-  .card {
-    background-color: theme('colors.white');
-    border-radius: theme('borderRadius.lg');
-    padding: theme('spacing.6');
-    box-shadow: theme('boxShadow.xl');
+  /* Customizing feature component as per needs */
+  .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    flex-direction: column;
   }
-  /* ... */
+
+  /* Customizing feature component as per needs */
+  .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+    margin-top: 0.5rem;
+  }
+
+  .gpt3__whatgpt3-heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
 
 @media screen and (max-width: 350px) {
-    /* Customizing feature component as per needs */
-    .gpt3__whatgpt3-container .gpt3__features-container__feature {
-        margin: 1rem 0;
-        min-width: 100%;
-    }
+  /* Customizing feature component as per needs */
+  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
 }
 
-/* .h10Img{
-    fill: transparent;
-    background-image: linear-gradient(270deg, var(--white), 0%, var(--white) 100%); */
-    /* background-image: url('images/background.jpg'); */
-    /* background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-  url('../../Assets/h1.jpg');
-    width: 100px; */
-    /* height: 100px; */
-    /* background-size:cover;
-    color: white;
-    padding: 45%;
-    margin:auto; */
-    
+ .gpt3__whatgpt3-container {
+ margin-left:10px;
+ height: auto;
+} 
 
+/* .aboutImg {
+    width: 80%;
+    height: auto;
+    display:center;
+  } */
+.aboutImg{
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
 
+}
+.text_about_container{
+font-size:50px;
+font-family: var(--font-family);
+color: #33475b;
+margin:30px;
+
+}
+.gradient__text h1{
+    align-items: center;
+}
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 50px; /* change this to change the size*/
+  
+}
+.card-Container{
+  justify-content: center;
+  margin:auto;
+  padding:auto;
+}
+.my-info{
+  margin:50px;
+  padding:auto;
+  justify-content: flex-end;
+}

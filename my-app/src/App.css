@@ -3,14 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -55,13 +55,15 @@
   background:-ms-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(84, 93, 109) 25%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 3% 25%, rgb(129, 133, 138) 0%, rgb(84, 93, 109) 25%);
+  /* background:rgb(9, 39, 65); */
+  background:rgb(40, 59, 73);
 }
 .gradient__text {
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 .bg-color{
