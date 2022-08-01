@@ -23,7 +23,7 @@ export default function Form() {
 
       <textarea 
         name='message' 
-        placeholder='Write your message here..'></textarea>
+        placeholder='...'></textarea>
 
       <button type='submit'>Submit</button>
 
