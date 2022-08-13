@@ -25,14 +25,16 @@
   font-size: 34px;
   line-height: 45px;
   font-weight: 800;
-  font-family: var(--font-family);
+  font-family: 'Libre Baskerville', serif;
+
   max-width: 510px;
 }
 
 .gpt3__whatgpt3-heading p {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+
+  font-weight: 500px;
+  font-size: 19px;
   line-height: 30px;
   color: var(--color-subtext);
   cursor: pointer;
@@ -106,22 +108,37 @@
     height: auto;
     display:center;
   } */
+
+.about-me-section{
+  margin:auto;
+  font-family: 'Libre Baskerville', serif;
+  /* font-family: 'Playfair Display', serif; */
+  padding:50px;
+  font-size: 25px
+}
 .aboutImg{
-    margin: auto;
+  width:520px;
+  margin:auto;
+  padding:10px;
+  border: 1px solid;
+  float:right;
+  margin: auto;
     width: 640px; 
     padding: 50px;
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 10px #888888; 
 
 }
-.text_about_container{
-font-size:50px;
+/* .text_about_container{ */
+/* font-size:50px;
 font-family: var(--font-family);
 color: #33475b;
-margin:30px;
-
-}
+margin:30px; */
+/* float:right;
+    text-align:right; */
+    
+/* } */
 .gradient__text h1{
     align-items: center;
 }

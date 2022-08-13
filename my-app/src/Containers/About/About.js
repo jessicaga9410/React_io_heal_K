@@ -1,13 +1,13 @@
 import React from "react";
 import "./about.css";
- import {
-//   Card,
-//   CardHeader,
-//   CardBody,
-   CardFooter,
-   Typography,
-   Tooltip,
- } from "@material-tailwind/react";
+//  import {
+// //   Card,
+// //   CardHeader,
+// //   CardBody,
+//    CardFooter,
+//    Typography,
+//    Tooltip,
+//  } from "@material-tailwind/react";
 import img7 from "../../Assets/90.png";
 
 function About() {
@@ -24,10 +24,14 @@ function About() {
       {/* <img className='h10Img' src={aboutMeImg} alt=""/> */}
       <div className="gpt3__whatgpt3-container">
         <img className="aboutImg" src={img7} alt="" />
+        <h1 className="about-me-section"> Hi, I’m Kate Carrara. I help people in their healing journey, <br />
+        by overcoming the emotional, spiritual and physical obstacles <br /> they may be encountering in their lives.
+      
+        </h1>
         <div class="container mx-auto px-4 text_about_container">
-          Hi, I'm Kate
+         
         </div>
-        <CardFooter className="flex justify-center gap-7 pt-2">
+        {/* <CardFooter className="flex justify-center gap-7 pt-2">
 
          <Tooltip content="Follow">
            <Typography
@@ -40,7 +44,7 @@ function About() {
              <i className="fa fa-instagram" id="insta" aria-hidden="true"></i>
            </Typography>
          </Tooltip>
-       </CardFooter>
+       </CardFooter> */}
       </div>
     </div>
   );

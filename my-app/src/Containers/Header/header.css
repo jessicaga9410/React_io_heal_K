@@ -1,5 +1,6 @@
 .header {
-  font-family: var(--font-family);
+  font-family: 'Libre Baskerville', serif;
+
   font-weight: 700;
   font-size: 18px;
   line-height: auto;
@@ -11,10 +12,16 @@
   min-width: 150px;
   display: flex;
   flex-direction: row;
-  box-shadow: 40px solid black;
+  box-shadow: 40px solid rgb(240, 232, 232);
 }
 #home{
+  /* box-shadow: 5px 5px 5px rgb(249, 247, 247);
+  border-radius: 10px 10px 5px rgb(75, 70, 70); */
+  
+  width:auto;
+  min-height: auto;
   height:80vh;
+  /* background-image: url("../../Assets/pexels-max-vakhtbovych-6077368\ \(1\).jpg"); */
 }
 
 .header-content {
@@ -38,7 +45,7 @@
   letter-spacing: -0.02em;
   height: 100%;
   /* font-size: 48px; */
-  text-shadow: 3px 4px 4px rgb(68, 69, 65);
+
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   /* border-right: .15em solid rgb(249, 248, 246); The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */

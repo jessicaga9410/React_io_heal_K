@@ -6,7 +6,7 @@ import img6 from "../../Assets/pic1.png";
 function PhysicalHealing() {
   return (
         <div className="inline-grid gpt3__whatgpt3-heading">
-        {/* <h1 className="gradient__text">Physical Healing</h1> */}
+        <h1 className="gradient__text">Physical Healing</h1>
    
          <div data-aos="zoom-in-up">
     

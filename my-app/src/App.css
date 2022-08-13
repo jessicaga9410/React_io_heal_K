@@ -43,20 +43,21 @@
 }
 
 .gradient__bg {
-  background:-moz-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(84, 93, 109) 25%);
+  background:-moz-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%,rgb(233, 230, 230)25%);
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(84, 93, 109) 25%);
+  background:-webkit-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(233, 230, 230) 25%);
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(84, 93, 109) 25%);
+  background:-o-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(233, 230, 230) 25%);
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(84, 93, 109) 25%);
+  background:-ms-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(233, 230, 230) 25%);
 
   /* global 92%+ browsers support */
-  /* background:rgb(9, 39, 65); */
-  background:rgb(40, 59, 73);
+  /* background:rgb(199, 204, 208); */
+  /* background:rgb(40, 59, 73); */
+  background:rgb(233, 230, 230);
 }
 .gradient__text {
   background: var(--gradient-text);
@@ -67,5 +68,6 @@
 }
 
 .bg-color{
-  background-color: rgb(250, 250, 251);
+  background-color: rgb(250, 244, 245);
 }
+

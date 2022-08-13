@@ -7,14 +7,14 @@
 
 :root {
 
-  --gradient-text: linear-gradient(89.97deg, #515b02 1.84%, #dfe3a7 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #fafa67 -13.86%, #e4d9d3 99.55%);
+  --gradient-text: linear-gradient(89.97deg, #444647 1.84%, #46454a 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #fafa67 -13.86%, #95918f 99.55%);
   
   --color-bg: #040C18;
-  --color-footer :#5F767D;
-  --color-blog: #f2f3f4;
+  --color-footer :#9b9b9c;
+  --color-blog: #9b9b9c;
   --color-text: #262729;
-  --color-subtext: #f3edec;
+  --color-subtext: #9b9b9c;
 }
 
 

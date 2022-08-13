@@ -3,6 +3,12 @@ import './contact.css'
 
 export default function Form() {
   return (
+    <>
+   
+   <div className="inline-grid gpt3__whatgpt3-heading">
+    <h1 className="gradient__text">Contact</h1>
+      
+      </div>
     <div className="contact-me">
        Send a Message
     
@@ -25,9 +31,10 @@ export default function Form() {
         name='message' 
         placeholder='...'></textarea>
 
-      <button type='submit'>Submit</button>
+      <button className="btn-form" type='submit'>Submit</button>
 
     </form>
     </div>
+    </>
   )
 }

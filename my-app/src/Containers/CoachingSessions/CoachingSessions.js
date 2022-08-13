@@ -7,7 +7,7 @@ function CoachingSessions() {
   return (
 
     <div className="inline-grid gpt3__whatgpt3-heading">
-    {/* <h1 className="gradient__text">Coaching Sessions</h1> */}
+    <h1 className="gradient__text">Coaching Sessions</h1>
 
      <div data-aos="zoom-in-up">
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
