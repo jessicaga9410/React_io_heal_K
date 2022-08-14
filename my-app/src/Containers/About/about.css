@@ -1,12 +1,9 @@
-
-.aboutMe{
-    display: flex;
-    max-width: 700px;
-    
-    
+.aboutMe {
+  display: flex;
+  max-width: 700px;
+  /* margin-left:400px; */
+  margin-right:50px;
 }
-
-
 
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
@@ -14,24 +11,26 @@
 }
 
 .gpt3__whatgpt3-heading {
-  display: flex;
+ text-align: center;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 4rem 0 2rem;
+  margin:40px;
+display: flex;
+  /* margin: 4rem 0 2rem; */
 }
 
 .gpt3__whatgpt3-heading h1 {
   font-size: 34px;
   line-height: 45px;
   font-weight: 800;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 
   max-width: 510px;
 }
 
 .gpt3__whatgpt3-heading p {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 
   font-weight: 500px;
   font-size: 19px;
@@ -67,10 +66,18 @@
     align-items: flex-start;
     margin-bottom: 0rem;
   }
-
+  .gradient__text h1 {
+    align-items: center;
+  }
   .gpt3__whatgpt3-heading p {
     margin-top: 1rem;
   }
+  .gradient__text{
+    align-items: center;
+    margin-left:55px;
+    text-align: center;
+  }
+ 
 }
 
 @media screen and (max-width: 650px) {
@@ -88,6 +95,11 @@
     font-size: 28px;
     line-height: 40px;
   }
+  .gradient__text{
+    align-items: center;
+    margin-left:55px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -96,39 +108,40 @@
     margin: 1rem 0;
     min-width: 100%;
   }
+  .gradient__text{
+    align-items: center;
+    margin-left:55px;
+    text-align: center;
+  }
 }
 
- .gpt3__whatgpt3-container {
- margin-left:10px;
- height: auto;
-} 
-
-/* .aboutImg {
-    width: 80%;
-    height: auto;
-    display:center;
-  } */
-
-.about-me-section{
-  margin:auto;
-  font-family: 'Libre Baskerville', serif;
-  /* font-family: 'Playfair Display', serif; */
-  padding:50px;
-  font-size: 25px
+.gpt3__whatgpt3-container {
+  margin-left: 10px;
+  height: auto;
 }
-.aboutImg{
-  width:520px;
-  margin:auto;
-  padding:10px;
-  border: 1px solid;
-  float:right;
+
+.about-me-section {
   margin: auto;
+  font-family: "Libre Baskerville", serif;
+  padding: 50px;
+  font-size: 25px;
+}
+.aboutImg {
+  width: 520px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid;
+  float: right;
+  margin: auto;
+  width: 640px;
     width: 640px; 
-    padding: 50px;
-    border: 1px solid;
-    padding: 10px;
+  width: 640px;
+  padding: 50px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
     box-shadow: 5px 10px #888888; 
-
+  box-shadow: 5px 10px #888888;
 }
 /* .text_about_container{ */
 /* font-size:50px;
@@ -137,28 +150,36 @@ color: #33475b;
 margin:30px; */
 /* float:right;
     text-align:right; */
-    
+
 /* } */
 .gradient__text h1{
     align-items: center;
+    margin-left:10px;
+    text-align: center;
 }
 #insta {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   -webkit-background-clip: text;
-          /* Also define standard property for compatibility */
-          background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
   font-size: 50px; /* change this to change the size*/
-  
 }
-.card-Container{
+.card-Container {
   justify-content: center;
-  margin:auto;
-  padding:auto;
+  margin: auto;
+  padding: auto;
 }
-.my-info{
-  margin:50px;
-  padding:auto;
+.my-info {
+  margin: 50px;
+  padding: auto;
   justify-content: flex-end;
 }

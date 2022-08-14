@@ -22,7 +22,7 @@
   outline: 5px auto -webkit-focus-ring-color;
   text-align: center;
   align-items: center;
-  margin: 30px;
+  margin: 60px;
   margin-right: 35px;
 }
 .gpt3__whatgpt3-heading button:hover {
@@ -35,6 +35,7 @@
 }
 span {
   color: black;
+ 
 }
 .gpt3__whatgpt3-heading {
   display: flex;
@@ -43,4 +44,6 @@ span {
   margin: 40px;
   padding: 60px;
 }
-
+.prices{
+  margin:30px;
+}

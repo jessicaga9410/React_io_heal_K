@@ -3,6 +3,8 @@ import "./physicalHealing.css";
 import img4 from "../../Assets/89.jpg";
 import img5 from "../../Assets/2.png";
 import img6 from "../../Assets/pic1.png";
+
+
 function PhysicalHealing() {
   return (
         <div className="inline-grid gpt3__whatgpt3-heading">
@@ -23,9 +25,9 @@ function PhysicalHealing() {
             located just under the skin, using light pressure is recommended to effectively move lymph fluid</span>
           </p>
         </div>
-        <div className="px-6 py-4">
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$150</span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Single</span>
+        <div className="px-6 py-4 price-physical">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$price here</span>
+          {/* <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Single</span> */}
           <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
         </div>
       </div>
@@ -45,9 +47,9 @@ function PhysicalHealing() {
             located just under the skin, using light pressure is recommended to effectively move lymph fluid</span>
           </p>
         </div>
-        <div className="px-6 py-4">
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$150</span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Single</span>
+        <div className="px-6 py-4 price-physical">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$Price here</span>
+          {/* <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Single</span> */}
           <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
         </div>
       </div>
@@ -67,9 +69,9 @@ function PhysicalHealing() {
                </span>
           </p>
         </div>
-        <div className="px-6 py-4 reflex">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$750</span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">6 Week Program</span>
+        <div className="px-6 py-4 price-physical">
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$Price here</span>
+          {/* <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">6 Week Program</span> */}
           <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
         </div>
       </div>

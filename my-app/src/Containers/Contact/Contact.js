@@ -6,11 +6,10 @@ export default function Form() {
     <>
    
    <div className="inline-grid gpt3__whatgpt3-heading">
-    <h1 className="gradient__text">Contact</h1>
+    <h1 className="contact-heading">Contact</h1>
       
       </div>
-    <div className="contact-me">
-       Send a Message
+   
     
     <form 
       method='POST' 
@@ -20,21 +19,22 @@ export default function Form() {
       <input 
         type='text' 
         name='name' 
-        placeholder='Enter your name' />
+        placeholder=' Enter your name' />
 
       <input 
         type='email' 
         name='email' 
-        placeholder='Enter your email' />
+        placeholder=' Enter your email' />
 
       <textarea 
         name='message' 
-        placeholder='...'></textarea>
+        placeholder='  Send a message'></textarea>
 
-      <button className="btn-form" type='submit'>Submit</button>
-
+<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded submit-btn">
+Submit
+</button>
     </form>
-    </div>
+    {/* </div> */}
     </>
   )
 }

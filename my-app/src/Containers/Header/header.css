@@ -1,11 +1,10 @@
 .header {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 
   font-weight: 700;
   font-size: 18px;
   line-height: auto;
   padding: 0.5rem 1rem;
-  /* border-radius: 2rem; */
   border: none;
   outline: none;
   cursor: pointer;
@@ -14,14 +13,10 @@
   flex-direction: row;
   box-shadow: 40px solid rgb(240, 232, 232);
 }
-#home{
-  /* box-shadow: 5px 5px 5px rgb(249, 247, 247);
-  border-radius: 10px 10px 5px rgb(75, 70, 70); */
-  
-  width:auto;
+#home {
+  width: auto;
   min-height: auto;
-  height:80vh;
-  /* background-image: url("../../Assets/pexels-max-vakhtbovych-6077368\ \(1\).jpg"); */
+  height: 80vh;
 }
 
 .header-content {
@@ -33,34 +28,19 @@
   margin-right: 3.15rem;
   margin-left: 2.18rem;
   height: auto;
-  padding:100px;
-
+  padding: 100px;
 }
 
 .header-content h1 {
   font-family: "Tangerine", serif;
-  /* font-weight: 1000px; */
   font-size: 170px;
   line-height: 200px;
   letter-spacing: -0.02em;
   height: 100%;
-  /* font-size: 48px; */
-
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   /* border-right: .15em solid rgb(249, 248, 246); The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: .15em; Adjust as needed */
-  animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end normal;
-}
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
 
 .header-content p {
@@ -68,11 +48,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  /* color: var(--color-text); */
   margin-top: 1.5rem;
 }
-
-
 
 .header-content__input {
   flex: 2;
@@ -82,8 +59,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  /* background: var(--color-footer); */
-  /* border: 2px solid var(--color-footer); */
   padding: 0 1rem;
   outline: none;
   color: #fff;
@@ -105,14 +80,11 @@
   letter-spacing: 3px;
   font-weight: bold;
   color: rgb(63, 66, 78);
-  /* background-color:rgb(26, 25, 25); */
   background-color: rgb(244, 215, 215);
   width: 200px;
   height: 55px;
-  /* font-family: 'Roboto', sans-serif; */
   border: none;
   border-radius: 45px;
-  /* box-shadow: 0px 8px 15px   #faf8f8; */
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
@@ -120,7 +92,6 @@
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
   margin-left: 2.18rem;
-  /* align-items: center; */
 }
 .header-content__input button:hover {
   box-shadow: 0px 15px 20px rgba(13, 13, 13, 0.4);
@@ -185,8 +156,8 @@
 
 @media screen and (max-width: 650px) {
   .header-content h1 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 63px;
+    line-height: 100px;
   }
 
   .header-content p {
@@ -194,35 +165,35 @@
     line-height: 24px;
   }
 
-  .header-content__people {
+  /* .header-content__people {
     flex-direction: column;
   }
 
   .header-content__people p {
     margin: 0;
-  }
+  } */
 
   .header-content__input input,
   .header-content__input button {
-    font-size: 16px;
+    font-size: 10px;
     line-height: 24px;
   }
 }
 
 @media screen and (max-width: 490px) {
   .header-content h1 {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 63px;
+    line-height: 100px;
   }
 
   .header-content p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
   }
 
   .header-content__input input,
   .header-content__input button {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 10px;
+    line-height: 24px;
   }
 }

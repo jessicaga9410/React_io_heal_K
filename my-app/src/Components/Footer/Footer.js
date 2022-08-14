@@ -7,6 +7,7 @@ import {
      Typography,
      Tooltip,
    } from "@material-tailwind/react";
+   
 function Footer() {
   return ( 
 
@@ -14,6 +15,7 @@ function Footer() {
 <footer className="p-4 bg-white shadow md:px-6 md:py-8 dark:bg-gray-900">
     <div className="sm:flex sm:items-center sm:justify-between">
     </div>
+
     <CardFooter className="flex justify-center gap-7 pt-2">
 
 <Tooltip content="Follow">

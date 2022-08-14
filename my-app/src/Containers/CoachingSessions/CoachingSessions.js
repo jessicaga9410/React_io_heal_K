@@ -20,7 +20,7 @@ function CoachingSessions() {
        <span> Book your single 60 min coaching session </span>
       </p>
     </div>
-    <div className="px-6 py-4">
+    <div className="px-6 py-4 prices-coaching">
       <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$150</span>
       <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Single</span>
       <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
@@ -39,7 +39,7 @@ function CoachingSessions() {
        <span>Book your 60 min session for 6 weeks</span>
       </p>
     </div>
-    <div className="px-6 py-4">
+    <div className="px-6 py-4 prices-coaching">
     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$750</span>
       <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">6 Week Program</span>
       <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
