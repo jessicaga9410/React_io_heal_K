@@ -17,7 +17,7 @@ function About() {
         by overcoming the emotional, spiritual and physical obstacles <br /> they may be encountering in their lives.
       
         </h1>
-        <div class="container mx-auto px-4 text_about_container">
+        <div className="container mx-auto px-4 text_about_container">
          
         </div>
         

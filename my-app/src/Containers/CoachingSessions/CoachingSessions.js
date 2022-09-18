@@ -6,7 +6,7 @@ import img3 from '../../Assets/h3.jpg';
 function CoachingSessions() {
   return (
 
-    <div className="inline-grid gpt3__whatgpt3-heading">
+    <div className="inline-grid gpt3__whatgpt3-heading" id="coaching-sessions">
     <h1 className="gradient__text">Coaching Sessions</h1>
 
      <div data-aos="zoom-in-up">

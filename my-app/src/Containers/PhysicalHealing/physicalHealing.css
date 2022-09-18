@@ -51,3 +51,11 @@ span {
 }
 
 
+@media screen and (max-width: 768px) {
+  #physical-healing {
+    font-size:63px;
+   padding-inline-start:20px;
+    width:100%;
+    
+  }
+} 

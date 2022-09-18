@@ -17,6 +17,7 @@
   align-items: center;
   margin:40px;
 display: flex;
+
   /* margin: 4rem 0 2rem; */
 }
 
@@ -112,6 +113,8 @@ display: flex;
     align-items: center;
     margin-left:55px;
     text-align: center;
+    margin:1rem;
+    
   }
 }
 
@@ -183,3 +186,11 @@ margin:30px; */
   padding: auto;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+  .bg-color{
+   padding-right:30px;
+    font-size:63px;
+    width:100%;
+  }
+} 

@@ -28,10 +28,10 @@ export default function Form() {
 
       <textarea 
         name='message' 
-        placeholder='  Send a message'></textarea>
+        placeholder=' Send a message '></textarea>
 
 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded submit-btn">
-Submit
+Send
 </button>
     </form>
     {/* </div> */}
