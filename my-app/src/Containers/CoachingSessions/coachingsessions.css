@@ -33,6 +33,9 @@
   display: inline-block;
   box-shadow: 0px 8px 15px #a39b9b;
 }
+.w-full{
+ margin:auto;
+}
 span {
   color: black;
  
@@ -42,7 +45,7 @@ span {
   justify-content: center;
   justify-content: space-evenly;
   margin: 40px;
-  padding: 60px;
+  padding:30px;
 }
 .prices{
   margin:30px;

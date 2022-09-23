@@ -1,7 +1,29 @@
-import React from 'react'
+import React from 'react';
+import Header from '../../Containers/Header/Header';
+import CoachingSessions from '../../Containers/CoachingSessions/CoachingSessions';
+import PhysicalHealing from '../../Containers/PhysicalHealing/PhysicalHealing';
+import About from '../../Containers/About/About';
+import Contact from '../../Containers/Contact/Contact';
+import Quote from "../../Containers/Quote/Quote";
 
-export default function Home() {
+// import image1 from '../../assets/p3.jpg';
+import './home.css';
+ function Home()
+{
   return (
-    <div>Home</div>
+    <>
+      <Header  />
+      <About /> 
+      <CoachingSessions />
+      <PhysicalHealing />
+      <Quote />
+      <div className="contactMe">
+      <Contact />
+      </div>
+ 
+    </>
   )
 }
+
+
+export default Home

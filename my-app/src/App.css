@@ -6,12 +6,12 @@
  .App {
   text-align: center;
  
-} 
+}
 
-/* .App-logo {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
-}  */
+} 
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -44,6 +44,7 @@
 }
 
 .gradient__bg {
+
   background:-moz-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%,rgb(233, 230, 230)25%);
 
   /* safari 5.1+,chrome 10+ */
@@ -58,7 +59,7 @@
   /* global 92%+ browsers support */
   /* background:rgb(199, 204, 208); */
   /* background:rgb(40, 59, 73); */
-  background:rgb(233, 230, 230);
+  background: white;
 }
 .gradient__text {
   background: var(--gradient-text);
@@ -69,6 +70,5 @@
 }
 
 .bg-color{
-  background-color: rgb(250, 244, 245);
+  background-color: white;
 }
-

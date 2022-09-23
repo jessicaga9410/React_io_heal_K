@@ -8,7 +8,7 @@ const Header = () => (
     <div className="header-content">
       <h1 className="gradient__text">Healing with Kate</h1>
       <div className="header-content__input">
-      <Button variant="outline-primary">Book with me Here</Button>{' '}
+      <Button variant="secondary">Book with me Here</Button>{' '}
       </div>
 
     </div>

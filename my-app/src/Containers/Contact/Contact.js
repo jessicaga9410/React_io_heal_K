@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css'
 
-export default function Form() {
+ function Contact() {
   return (
     <>
    
@@ -34,7 +34,8 @@ export default function Form() {
 Send
 </button>
     </form>
-    {/* </div> */}
+    
     </>
   )
 }
+export default Contact

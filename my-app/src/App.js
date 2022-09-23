@@ -1,39 +1,33 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Containers/Header/Header";
 import Navb from "./Components/Navb/Navb";
 import About from "./Containers/About/About";
 import CoachingSessions from "./Containers/CoachingSessions/CoachingSessions";
 import PhysicalHealing from "./Containers/PhysicalHealing/PhysicalHealing";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Containers/Contact/Contact";
-import Home from './Components/Home/Home'; 
+import Home from "./Components/Home/Home";
 import "./App.css";
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ErrorPage from "./Components/ErrrorPage/ErrorPage";
 function App() {
   return (
     <div className="App">
       <div className="gradient__bg">
-        <Navb />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/CoachingSessions" component={CoachingSessions} />
-          <Route path="/PyshicalHealing" component={PhysicalHealing} />
-          <Route path="/About" component={About} />
-          <Route path="/Contact" component={Contact} />
-        </Switch>
-        <Header />
+        <Router>
+          <Navb />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/coachingsessions" component={CoachingSessions} />
+            <Route path="/physicalhealing" component={PhysicalHealing} />
 
-        <div className="bg-color">
-          <About />
+            <Route path="/contact" component={Contact} />
+            <Route path="*" component={ErrorPage} />{" "}
+          </Switch>
+        </Router>
 
-          <CoachingSessions />
-
-          <PhysicalHealing />
-
-          <Contact />
-          <Footer />
-        </div>
+        <Footer />
       </div>
     </div>
   );

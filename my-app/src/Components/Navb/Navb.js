@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../Assets/logo.png';
+// import image from '../../Assets/logo.png';
 import './navb.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
@@ -10,17 +10,17 @@ return (
   
          <Navbar collapseOnSelect fixed='top' expand="sm" bg="light" variant="light">
           <Container>
-          <div className="logo1">
+          {/* <div className="logo1">
           <img src={image} alt="" />
-          </div>
+          </div> */}
             <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav>
-                <Nav.Link href='/Home'> Home </Nav.Link>
-                <Nav.Link href='/CoachingSessions'> Coaching Sessions </Nav.Link>
-                <Nav.Link href='/PhysicalHealing'> Physical Healing </Nav.Link>
-                <Nav.Link href='/About'> About Me</Nav.Link>
-                <Nav.Link href='/Contact'> Contact </Nav.Link>
+                <Nav.Link href='/'> Home </Nav.Link>
+                <Nav.Link href='/coachingsessions'> Coaching Sessions </Nav.Link>
+                <Nav.Link href='/physicalhealing'> Physical Healing </Nav.Link>
+                <Nav.Link href='/about'> About Me</Nav.Link>
+                <Nav.Link href='/contact'> Contact </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
