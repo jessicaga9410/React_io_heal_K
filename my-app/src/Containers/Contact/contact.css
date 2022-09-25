@@ -70,3 +70,11 @@ textarea {
   -webkit-text-fill-color: transparent;
   color: #434141;
 }
+
+@media screen and (max-width: 768px) {
+  .bg-color{
+   padding-right:30px;
+    font-size:63px;
+    width:100%;
+  }
+} 
