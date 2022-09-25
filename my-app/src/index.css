@@ -1,14 +1,12 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
 
-  --gradient-text: linear-gradient(89.97deg, #444647 1.84%, #46454a 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #fafa67 -13.86%, #95918f 99.55%);
+  --gradient-text: linear-gradient(89.97deg, #8c8f49 1.84%, #babb9b 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #fafa67 -13.86%, #c5d321 99.55%);
   
   --color-bg: #040C18;
   --color-footer :#9b9b9c;
