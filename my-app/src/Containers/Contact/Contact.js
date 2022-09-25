@@ -1,5 +1,12 @@
 import React from 'react';
-import './contact.css'
+import './contact.css';
+
+ import {
+  
+   Tooltip,
+      Typography,
+     
+   } from "@material-tailwind/react";
 
  function Contact() {
   return (
@@ -34,7 +41,19 @@ import './contact.css'
 Send
 </button>
     </form>
-    
+  
+    <Typography
+     as="a"
+     href="#instagram"
+     variant="lead"
+     color="purple"
+      textGradient
+   >
+    <Tooltip content="Follow">
+     <i className="fa fa-instagram" id="insta" aria-hidden="true"></i>
+     </Tooltip>
+   </Typography>
+
     </>
   )
 }

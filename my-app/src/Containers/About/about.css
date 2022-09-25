@@ -2,7 +2,7 @@
   display: flex;
   max-width: 700px;
   /* margin-left:400px; */
-  margin-right:50px;
+  margin-right: 50px;
 }
 
 /* Customizing feature component as per needs */
@@ -11,12 +11,12 @@
 }
 
 .gpt3__whatgpt3-heading {
- text-align: center;
+  text-align: center;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin:40px;
-display: flex;
+  margin: 40px;
+  display: flex;
 
   /* margin: 4rem 0 2rem; */
 }
@@ -73,12 +73,11 @@ display: flex;
   .gpt3__whatgpt3-heading p {
     margin-top: 1rem;
   }
-  .gradient__text{
+  .gradient__text {
     align-items: center;
-    margin-left:55px;
+    margin-left: 55px;
     text-align: center;
   }
- 
 }
 
 @media screen and (max-width: 650px) {
@@ -96,9 +95,9 @@ display: flex;
     font-size: 28px;
     line-height: 40px;
   }
-  .gradient__text{
+  .gradient__text {
     align-items: center;
-    margin-left:55px;
+    margin-left: 55px;
     text-align: center;
   }
 }
@@ -109,18 +108,19 @@ display: flex;
     margin: 1rem 0;
     min-width: 100%;
   }
-  .gradient__text{
+  .gradient__text {
     align-items: center;
-    margin-left:55px;
+    margin-left: 55px;
     text-align: center;
-    margin:1rem;
-    
+    margin: 1rem;
   }
 }
 
 .gpt3__whatgpt3-container {
   margin-left: 10px;
   height: auto;
+  margin: 70px;
+  padding: auto;
 }
 
 .about-me-section {
@@ -130,17 +130,11 @@ display: flex;
   font-size: 25px;
 }
 .aboutImg {
-  width: 520px;
+  /* width: 520px; */
   margin: auto;
-  padding: 10px;
   border: 1px solid;
   float: right;
-  margin: auto;
   width: 640px;
-    width: 640px; 
-  width: 640px;
-  padding: 50px;
-  border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
 }
@@ -153,27 +147,12 @@ margin:30px; */
     text-align:right; */
 
 /* } */
-.gradient__text h1{
-    align-items: center;
-    margin-left:10px;
-    text-align: center;
+.gradient__text h1 {
+  align-items: center;
+  margin-left: 10px;
+  text-align: center;
 }
-#insta {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  -webkit-background-clip: text;
-  /* Also define standard property for compatibility */
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 
-  font-size: 50px; /* change this to change the size*/
-}
 .card-Container {
   justify-content: center;
   margin: auto;
@@ -186,9 +165,9 @@ margin:30px; */
 }
 
 @media screen and (max-width: 768px) {
-  .bg-color{
-   padding-right:30px;
-    font-size:63px;
-    width:100%;
+  .bg-color {
+    padding-right: 30px;
+    font-size: 63px;
+    width: 100%;
   }
-} 
+}
