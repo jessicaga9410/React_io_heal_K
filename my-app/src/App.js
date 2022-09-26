@@ -21,7 +21,6 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/coachingsessions" component={CoachingSessions} />
             <Route path="/physicalhealing" component={PhysicalHealing} />
-
             <Route path="/contact" component={Contact} />
             <Route path="*" component={ErrorPage} />{" "}
           </Switch>

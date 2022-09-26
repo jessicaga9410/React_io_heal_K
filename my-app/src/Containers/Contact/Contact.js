@@ -20,8 +20,8 @@ import './contact.css';
     
     <form 
       method='POST' 
-      name='contactform' 
-      className='contactForm'>
+      name='contact-form' 
+      className='contact-form'>
 
       <input 
         type='text' 
@@ -41,7 +41,10 @@ import './contact.css';
 Send
 </button>
     </form>
-  
+    <div>
+ 
+  <h2>Click below to follow</h2>
+
     <Typography
      as="a"
      href="#instagram"
@@ -51,10 +54,15 @@ Send
    >
     <Tooltip content="Follow">
      <i className="fa fa-instagram" id="insta" aria-hidden="true"></i>
-     </Tooltip>
+      </Tooltip>
    </Typography>
-
+</div>
     </>
   )
 }
-export default Contact
+export default Contact;
+
+// alert({
+//   title: 'Cellular Data is Turned Off for "Safari"',
+//   message: 'You can turn on cellular data for this app in Settings.'
+// });

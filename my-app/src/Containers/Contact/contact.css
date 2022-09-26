@@ -1,67 +1,75 @@
+/* * {
+  box-sizing: border-box;
+
+} */
+
 .contact-heading {
   align-items: center;
- margin-left: 50px; 
- margin-right:20px;
+  margin-left: 50px;
+  margin-right: 20px;
   font-size: 30px;
   text-align: center;
   color: #434141;
+  margin: auto;
 }
 
-.contactForm {
+.contact-form {
   color: #434141;
-  padding: 5px;
-  width: 90%;
-  max-width: 400px;
-  margin: 30px auto;
+  padding: 100px;
+  max-width: 600px;
+  margin: auto;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border: 1px solid rgb(193, 170, 170);
+  box-shadow: 12px 12px 2px 1px rgba(153, 130, 167, 0.2);
+  background-color: #dad9da;
 }
-.contactForm input,
+.contact-form input,
 button,
 textarea {
+  max-width: 600px;
   height: 50px;
   padding-left: 5px;
   font-size: 18px;
   color: rgb(248, 253, 253);
-  border-radius: 10px;
-  color: #434141;
+  border-radius: 3px;
+  color: #6d5d5d;
 }
-.contactForm textarea {
-  height: 100px;
-  color: #434141;
-  font-size:18px;
+.contact-form textarea {
+  height: 200px;
+  color: #050505;
+  font-size: 18px;
+
+  max-width: 600px;
 }
 .contact-me {
   text-align: center;
   color: #434141;
 }
 .submit-btn {
-
-   padding: 40px;
+  width: auto;
+  padding: 40px;
   margin: 40px;
   border-width: 1px;
-  border-radius: 10px;
+  border-radius: 2px;
   line-height: 1;
   font-size: 18px;
   font-weight: 500;
-   border-top-width: 2px;
+  border-top-width: 2px;
   border-right-width: 2px;
   border-left-width: 2px;
   border-bottom-width: 2px;
-  border-radius: 8px;
   padding-top: 14px;
   padding-right: 30px;
   padding-bottom: 14px;
-  padding-left: 30px;   
+  padding-left: 30px;
 }
-
 
 .gpt3__whatgpt3-heading {
   text-align: center;
   color: #434141;
-  
 }
 .gradient-text {
   background: var(--gradient-text);
@@ -72,16 +80,20 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-  .bg-color{
-   padding-right:30px;
-    font-size:63px;
-    width:100%;
+  .bg-color {
+    padding-right: 30px;
+    font-size: 63px;
+    width: 100%;
   }
-} 
+  h2{
+    margin-top:80px;
+  
+  }
+}
 
 #insta {
-  margin-top:100px;
-  margin-bottom:100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background: radial-gradient(
     circle at 30% 107%,
     #fdf497 0%,
@@ -96,4 +108,9 @@ textarea {
   -webkit-text-fill-color: transparent;
 
   font-size: 50px; /* change this to change the size*/
+}
+h2{
+  padding:20px;
+  margin-top:80px;
+
 }

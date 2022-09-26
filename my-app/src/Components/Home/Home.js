@@ -4,7 +4,6 @@ import CoachingSessions from '../../Containers/CoachingSessions/CoachingSessions
 import PhysicalHealing from '../../Containers/PhysicalHealing/PhysicalHealing';
 import About from '../../Containers/About/About';
 import Contact from '../../Containers/Contact/Contact';
-import Quote from "../../Containers/Quote/Quote";
 
 // import image1 from '../../assets/p3.jpg';
 import './home.css';
@@ -16,7 +15,6 @@ import './home.css';
       <About /> 
       <CoachingSessions />
       <PhysicalHealing />
-      <Quote />
       <div className="contactMe">
       <Contact />
       </div>

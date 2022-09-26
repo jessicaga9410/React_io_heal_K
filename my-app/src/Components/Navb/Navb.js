@@ -15,7 +15,9 @@ function Navb() {
       >
         <Container>
           <div className="logo1">
-            <img src={image} alt="" />
+            <Nav.Link href="/">
+              <img src={image} alt="" />
+            </Nav.Link>
           </div>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
