@@ -95,7 +95,7 @@ position:relative;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
-  line-height: 28px;
+  /* line-height: 28px; */
   padding: 1.5em;
   outline: none;
   color: #fff;

@@ -1,17 +1,18 @@
 import React from "react";
 import "./physicalHealing.css";
 import img4 from "../../Assets/89.jpg";
-import img5 from "../../Assets/2.png";
-import img6 from "../../Assets/pic1.png";
+// import img5 from "../../Assets/2.png";
+// import img6 from "../../Assets/pic1.png";
 
 
 function PhysicalHealing() {
   return (
         <div className="inline-grid gpt3__whatgpt3-heading" id="physical-healing">
-        <h1 className="gradient__text">Physical Healing</h1>
-   
-         <div data-aos="zoom-in-up">
-    
+        {/* <h1 className="gradient__text">Physical Healing</h1> */}
+       <div>
+   <p>Temporarily Closed</p>
+<div data-aos="zoom-in-up">
+</div>
         <div className="max-w-sm rounded overflow-hidden shadow-lg cards-facial">
         <img className="w-full" src={img4} alt="Display" />
         <div className="px-6 py-4">
@@ -32,8 +33,11 @@ function PhysicalHealing() {
         </div>
       </div>
     </div>
+</div>
 
-     <div data-aos="zoom-in-up">
+ );
+}
+     {/* <div data-aos="zoom-in-up">
         <div className="max-w-sm rounded overflow-hidden shadow-lg cards-lymph">
        <img className="w-full" src={img5} alt="Display" />
         <div className="px-6 py-4">
@@ -50,7 +54,7 @@ function PhysicalHealing() {
         <div className="px-6 py-4 price-physical">
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$Price here</span>
           {/* <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Single</span> */}
-          <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
+          {/* <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
         </div>
       </div>
     </div>
@@ -72,13 +76,12 @@ function PhysicalHealing() {
         <div className="px-6 py-4 price-physical">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">$Price here</span>
           {/* <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">6 Week Program</span> */}
-          <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
-        </div>
-      </div>
-      </div>
-      </div>
-    );
-    }
+          {/* <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">Book with Me Here</button>
+        </div> */}
+      {/* </div> */} 
+      {/* </div> 
+      </div> */}
+  
 
 
 export default PhysicalHealing;

@@ -60,13 +60,13 @@
   /* background:rgb(40, 59, 73); */
   background: white;
 }
-.gradient__text {
+/* .gradient__text {
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-}
+} */
 
 /* .bg-color{
   background-color: white;

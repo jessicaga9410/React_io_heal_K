@@ -71,13 +71,7 @@ textarea {
   text-align: center;
   color: #434141;
 }
-.gradient-text {
-  background: var(--gradient-text);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #434141;
-}
+
 
 @media screen and (max-width: 768px) {
   .bg-color {

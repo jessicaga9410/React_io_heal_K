@@ -95,11 +95,11 @@
     font-size: 28px;
     line-height: 40px;
   }
-  .gradient__text {
+  /* .gradient__text {
     align-items: center;
     margin-left: 55px;
     text-align: center;
-  }
+  } */
 }
 
 @media screen and (max-width: 350px) {

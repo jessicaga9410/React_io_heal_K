@@ -1,6 +1,7 @@
 import React from 'react';
 import './contact.css';
 
+
  import {
   
    Tooltip,
@@ -16,14 +17,11 @@ import './contact.css';
     <h1 className="contact-heading">Contact</h1>
       
       </div>
-   
-    
-    <form 
-      method='POST' 
-      name='contact-form' 
-      className='contact-form'>
-
-      <input 
+       
+      <form action="https://formsubmit.co/jessicaga941@gmail.com" className="contact-form" method="POST" >
+      <input type="hidden" name="_captcha" value="false" /> 
+      <input type="hidden" name="_template" value="box"/>
+      <input
         type='text' 
         name='name' 
         placeholder=' Enter your name' />
@@ -40,7 +38,7 @@ import './contact.css';
 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded submit-btn">
 Send
 </button>
-    </form>
+</form>
     <div>
  
   <h2>Click below to follow</h2>

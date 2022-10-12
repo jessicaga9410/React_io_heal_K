@@ -17,6 +17,7 @@ import './home.css';
       <PhysicalHealing />
       <div className="contactMe">
       <Contact />
+    
       </div>
  
     </>
