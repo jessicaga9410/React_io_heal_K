@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../../Assets/logo.png";
-import "./navb.css";
+import image from "../../Assets/logo2.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import "./navb.css"
 
 function Navb() {
   return (
@@ -11,18 +11,17 @@ function Navb() {
         fixed="top"
         expand="sm"
         bg="light"
-        variant="light"
+        variant="dark"
       >
         <Container>
           <div className="logo1">
             <Nav.Link href="/">
-              <img src={image} alt="" />
+              <img src={image} className="logo1" alt="logo1" />
             </Nav.Link>
           </div>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <div className="nav-section">
-              <Nav>
+              <Nav className="navbar-nv">
                 <Nav.Link href="/"> Home </Nav.Link>
                 <Nav.Link href="/about"> About</Nav.Link>
                 <Nav.Link href="/coachingsessions">
@@ -32,7 +31,6 @@ function Navb() {
                 <Nav.Link href="/physicalhealing"> Physical Healing </Nav.Link>
                 <Nav.Link href="/contact"> Contact </Nav.Link>
               </Nav>
-            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

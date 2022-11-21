@@ -18,7 +18,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #f2f4f8;
   min-height: 100vh;
   display: flex;
@@ -31,7 +31,7 @@
 
 .App-link {
   color: #fbfbfb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -59,6 +59,8 @@
   /* background:rgb(199, 204, 208); */
   /* background:rgb(40, 59, 73); */
   background: white;
+
+  /* background:url("./Assets/bg1.jpg") */
 }
 /* .gradient__text {
   background: var(--gradient-text);
