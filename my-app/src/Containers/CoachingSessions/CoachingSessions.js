@@ -8,11 +8,11 @@ function CoachingSessions() {
     console.log("Anchor element clicked");
   };
   return (
-    <div className="inline-grid gpt3__whatgpt3-heading" id="coaching-sessions">
-      <h1 className="gradient__text">Coaching Sessions</h1>
-
-      <div data-aos="zoom-in-up">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    <>
+    <h1>Coaching Session</h1>
+    <div className="coaching-heading">
+        <div data-aos="zoom-in-up">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg card-sessions">
           <img className="w-full" src={img2} alt="Display" />
           <div className="px-6 py-4">
             <div className="font-bold text-sky-900 text-xl mb-2">
@@ -29,13 +29,13 @@ function CoachingSessions() {
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
               Single
             </span>
-            <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">
+            <button className="inline-block bg-gray-200 rounded-full px-3 py-3 text-sm font-semibold text-gray-700 mt-2 ml-20 button">
               Book with Me Here
             </button>
           </div>
         </div>
       </div>
-
+      
       <div data-aos="zoom-in-up">
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <img className="w-full" src={img3} alt="Display" />
@@ -69,6 +69,7 @@ function CoachingSessions() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

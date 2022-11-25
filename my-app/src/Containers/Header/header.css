@@ -19,10 +19,10 @@
   animation: myfirst 5s; */
   /* background-repeat: no-repeat; */
   /* text-align: center; */
-  /* flex: 1; */
+
 }
 @media screen and (max-width: 1050px) {
-  #home {
+  .header-text {
     flex-direction: column;
     width: 100%;
     text-align: center;
@@ -31,16 +31,17 @@
 }
 
 @media screen and (min-width: 260px) {
-  #home {
+  .header-text {
     font-size: 63px;
     line-height: 100px;
     text-align: center;
     flex: 1;
+    
   }
 }
 
 @media screen and (max-width: 768px) {
-  #home {
+  .header-text {
     font-size: 63px;
     padding-inline-start: 20px;
     width: 100%;
@@ -48,7 +49,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #home {
+  .header-text{
     font-size: 63px;
     padding-inline-start: 20px;
     width: 100%;
@@ -66,6 +67,8 @@ margin-bottom:50px;
 margin-left:200px;
 margin-right:50px; */
   text-align: center;
+  position:flex;
+  justify-content: center;
   /* 
 flex:1; */
 }

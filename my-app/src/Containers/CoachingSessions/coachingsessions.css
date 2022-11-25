@@ -40,7 +40,7 @@ span {
   color: black;
  
 }
-#coaching-sessions{
+/* #coaching-sessions{
   display: flex;
   flex-direction: row;
   row-gap: 12px;
@@ -48,26 +48,65 @@ span {
   display: center;
   margin:auto;
   padding:auto;
-}
-.gpt3__whatgpt3-heading {
+
+} */
+.coaching-heading {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  margin: 40px;
-  padding:30px;
+  margin: 30px;
+  padding: 60px;
+}
+p{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.title-coach{
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .prices{
   margin:30px;
 }
-@media screen and (min-width: 340px) {
-  #coaching-sessions{
+@media screen and (min-width: 350px) {
+  .coaching-heading{
     font-size:63px;
    padding-inline-start:20px;
     width:100%;
   }
 } 
-/* 
-.gradient__text h1{
-text-align: center;
-flex:1;
-} */
+
+@media screen and (max-width: 650px) {
+  .coaching-heading {
+    font-size:63px;
+   padding-inline-start:20px;
+    width:100%;
+    row-gap: 20px;
+    
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .coaching-heading {
+    padding-right: 30px;
+    font-size: 63px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .coaching-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+  .coaching-heading h1 {
+    align-items: center;
+  }
+  .coaching-heading p {
+    margin-top: 1rem;
+  
+  }
+}

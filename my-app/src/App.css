@@ -54,11 +54,10 @@
 
   /* ie 10+ */
   background:-ms-radial-gradient(circle at 3% 25%, rgb(230, 233, 236) 0%, rgb(233, 230, 230) 25%);
-
-  /* global 92%+ browsers support */
-  /* background:rgb(199, 204, 208); */
-  /* background:rgb(40, 59, 73); */
-  background: white;
+/* 
+  background:rgb(3, 132, 238); 
+ background:rgb(214, 230, 242);
+ background: rgb(253, 251, 251); */
 
   /* background:url("./Assets/bg1.jpg") */
 }
@@ -70,6 +69,3 @@
 
 } */
 
-/* .bg-color{
-  background-color: white;
-} */
