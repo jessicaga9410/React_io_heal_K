@@ -1,12 +1,12 @@
 import React from "react";
 import "./about.css";
-import img7 from "../../Assets/90.png";
+import img7 from "../../Assets/profilephoto.png";
 
 function About() {
   return (
     <>
       <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
-        <h1 className="gradient__text">About</h1>
+        <h1 className="about-header">About</h1>
         <div className="gpt3__whatgpt3-heading"></div>
         {/* <img className='h10Img' src={aboutMeImg} alt=""/> */}
         <div className="gpt3__whatgpt3-container">

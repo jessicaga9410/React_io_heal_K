@@ -1,9 +1,9 @@
 import React from "react";
-import "./coachingsessions.css";
+import "./coachingsession.css";
 import img2 from "../../Assets/h1.jpg";
 import img3 from "../../Assets/h3.jpg";
 
-function CoachingSessions() {
+function CoachingSession() {
   const handleAnchorClick = (event) => {
     console.log("Anchor element clicked");
   };
@@ -12,7 +12,7 @@ function CoachingSessions() {
     <h1>Coaching Session</h1>
     <div className="coaching-heading">
         <div data-aos="zoom-in-up">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg card-sessions">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg card-sessions" id="card-session">
           <img className="w-full" src={img2} alt="Display" />
           <div className="px-6 py-4">
             <div className="font-bold text-sky-900 text-xl mb-2">
@@ -22,14 +22,14 @@ function CoachingSessions() {
               <span> Book your single 60 min coaching session </span>
             </p>
           </div>
-          <div className="px-6 py-4 prices-coaching">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+          <div className="px-6 py-4">
+            <span className="inline-block bg-gray-200 rounded-full px-4 py-3 text-sm font-semibold text-gray-700 mr-2">
               $150
             </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+            <span className="inline-block bg-gray-200 rounded-full px-4 py-3 text-sm font-semibold text-gray-700 mr-2">
               Single
             </span>
-            <button className="inline-block bg-gray-200 rounded-full px-3 py-3 text-sm font-semibold text-gray-700 mt-2 ml-20 button">
+            <button className="inline-block bg-gray-200 rounded-full px-4 py-3 text-sm font-semibold text-gray-700 mt-2 ml-20 button">
               Book with Me Here
             </button>
           </div>
@@ -48,16 +48,16 @@ function CoachingSessions() {
             </p>
           </div>
           <div className="px-6 py-4 prices-coaching">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+            <span className="inline-block bg-gray-200 rounded-full px-4 py-3 text-sm font-semibold text-gray-700 mr-2">
               $750
             </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+            <span className="inline-block bg-gray-200 rounded-full px-4 py-3 text-sm font-semibold text-gray-700 mr-2">
               6 Week Program
             </span>
 
             <a
               onClick={handleAnchorClick}
-              href="https://calendly.com/jessicaga941"
+              href="#"
               className="inline-block bg-gray-200 rounded-full px-3 py-3 text-sm font-semibold text-gray-700 mt-2 ml-20 button"
               target="_blank"
               rel="noreferrer"
@@ -73,4 +73,4 @@ function CoachingSessions() {
   );
 }
 
-export default CoachingSessions;
+export default CoachingSession;

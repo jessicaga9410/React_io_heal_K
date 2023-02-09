@@ -16,15 +16,18 @@ display: flex;
 
  body {
   
-    background-size: 75% auto;
+
     padding: auto;
     list-style: none;
     text-align: center;
     display: inline-block;
-    color:rgb(26, 23, 23);
- }
-Nav{
-    color:white;
+    color:rgb(2, 2, 2);
+    font-family: 'Noto Serif Khojki', serif;
+font-size: large;
+
+
+/* font-family: 'Inter', sans-serif; */
+
  }
 
 

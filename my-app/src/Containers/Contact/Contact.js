@@ -41,7 +41,7 @@ Send
 </form>
     <div>
  
-  <h2>Click below to follow</h2>
+  <h2>Follow-Me on Social Media!</h2>
 
     <Typography
      as="a"

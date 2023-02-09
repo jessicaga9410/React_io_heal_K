@@ -11,7 +11,9 @@
   text-align: center;
   color: #434141;
   margin: auto;
+  
 }
+
 
 .contact-form {
   color: #434141;
@@ -22,8 +24,8 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 1px solid rgb(193, 170, 170);
-  box-shadow: 12px 12px 2px 1px rgba(153, 130, 167, 0.2);
+  /* border: 1px solid rgb(193, 170, 170); */
+  box-shadow: 10px 10px 2px 1px rgba(168, 168, 171, 0.2);
   background-color: #dad9da;
 }
 .contact-form input,
@@ -106,5 +108,6 @@ textarea {
 h2{
   padding:20px;
   margin-top:80px;
+
 
 }

@@ -6,7 +6,7 @@ function PhysicalHealing() {
   return (
     <>
     <h1>Physical Healing</h1>
-    <p>Temporarily Closed</p>
+    {/* <p>Temporarily Closed</p> */}
     <div className="inline-grid physical-healing-heading" id="physical-healing">
       <div>
         <div data-aos="zoom-in-up"></div>
@@ -14,7 +14,7 @@ function PhysicalHealing() {
           <img className="w-full" src={img4} alt="Display" />
           <div className="px-6 py-4">
             <div className="font-bold text-sky-900 text-xl mb-2">
-              Facial Lymph Drainage
+              Facial Lymph Drainage 30 min
             </div>
             <p className="text-slate-900 text-base">
               <span>
@@ -28,11 +28,11 @@ function PhysicalHealing() {
               </span>
             </p>
           </div>
-          <div className="px-6 py-4 price-physical">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-              $price here
+          <div className="px-6 py-4">
+            <span className="inline-block bg-gray-200 rounded-full px-4 py-3 text-sm font-semibold text-gray-700 mr-2" id="price-physical">
+              $99
             </span>
-            <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">
+            <button className="inline-block bg-gray-200 rounded-full px-3 py-3 text-sm font-semibold text-gray-700 mt-2 ml-20 button">
               Book with Me Here
             </button>
           </div>
