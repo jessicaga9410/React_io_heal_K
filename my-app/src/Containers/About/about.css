@@ -170,7 +170,10 @@ margin:30px; */
   padding: auto;
   justify-content: flex-end;
 }
-
+.intro-aboutMe{
+  background-color:rgb(233, 231, 231);
+  padding:20px;
+}
 @media screen and (max-width: 768px) {
   .bg-color {
     padding-right: 30px;

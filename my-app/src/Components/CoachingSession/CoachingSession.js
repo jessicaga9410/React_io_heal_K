@@ -12,7 +12,7 @@ function CoachingSession() {
     <h1>Coaching Session</h1>
     <div className="coaching-heading">
         <div data-aos="zoom-in-up">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg card-sessions" id="card-session">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg card-sessions" id="card-sessions">
           <img className="w-full" src={img2} alt="Display" />
           <div className="px-6 py-4">
             <div className="font-bold text-sky-900 text-xl mb-2">
@@ -37,7 +37,7 @@ function CoachingSession() {
       </div>
       
       <div data-aos="zoom-in-up">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg" id="card-sessions">
           <img className="w-full" src={img3} alt="Display" />
           <div className="px-6 py-4">
             <div className="font-bold text-sky-900 text-xl mb-2">

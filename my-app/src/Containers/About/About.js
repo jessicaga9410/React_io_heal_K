@@ -12,10 +12,18 @@ function About() {
         <div className="gpt3__whatgpt3-container">
           <img className="aboutImg" src={img7} alt="" />
           <h1 className="about-me-section">
+          <div className="intro-aboutMe">
             {" "}
-            Hi, I’m Kate Carrara. I help people in their healing journey, <br />
-            by overcoming the emotional, spiritual and physical obstacles <br />{" "}
-            they may be encountering in their lives.
+            Hey there!<br />
+            <br />
+             I’m Kate Carrara <br /> and I want to help you overcome<br />
+              obstacles in your life. Im so glad you came across my page!   <br />{" "}
+         Jesus has called us to use our giftings, <br />
+         and I want to use mine to help you become the best<br />
+          version of yourself.<br />
+          <br />
+        Click on the "Book with me Here" button to schedule your call 🤍<br />
+        </div>
           </h1>
           <div className="container mx-auto px-4 text_about_container"></div>
         </div>

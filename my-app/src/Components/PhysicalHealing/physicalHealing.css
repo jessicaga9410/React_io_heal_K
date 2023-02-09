@@ -55,7 +55,9 @@ span {
   text-align: center;
 }
 
-
+#card-healing{
+  background-color: white;
+}
 @media screen and (max-width: 768px) {
   #physical-healing {
     font-size:63px;

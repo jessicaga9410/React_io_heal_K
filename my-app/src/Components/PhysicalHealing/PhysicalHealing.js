@@ -10,7 +10,7 @@ function PhysicalHealing() {
     <div className="inline-grid physical-healing-heading" id="physical-healing">
       <div>
         <div data-aos="zoom-in-up"></div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg cards-facial">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg cards-facial" id="card-healing">
           <img className="w-full" src={img4} alt="Display" />
           <div className="px-6 py-4">
             <div className="font-bold text-sky-900 text-xl mb-2">

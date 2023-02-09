@@ -40,6 +40,10 @@ span {
   color: black;
  
 }
+
+#card-sessions{
+ background-color:rgb(250, 246, 246);
+}
 /* #coaching-sessions{
   display: flex;
   flex-direction: row;
